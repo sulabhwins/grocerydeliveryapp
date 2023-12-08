@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <section id="cart">
+    <header>
+        <h1>Shopping Cart</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="address.html">Address</a>
+            <a href="cart.html">Cart</a>
+            <a href="oldorder.html">Orders</a>
+            <a href="../../index.html">Logout</a>
+        </nav>
+    </header>
+    <div id="cart-items">
+        <div id="cart-summary">
+            <hr>
+            <p><strong>Total Amount:</strong> $<span id="totalAmount">0.00</span></p>
+            <button id="paymentButton" onclick="makePayment()">Proceed to Payment</button>
+        </div>
+        <div id="cart-list">
+        </div>
+    </div>
+</section>
+    <script src="../js/own.js"> </script>
+</body>
+
+</html>

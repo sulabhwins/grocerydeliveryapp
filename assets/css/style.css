@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#sinup .password-input-container {
+    position: relative;
+}
+
+#sinup #password {
+    padding-right: 30px;
+}
+
+#sinup #eye {
+    position: absolute;
+    right: 10px;
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#sinup{
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../img/tamanna-rumee-eD1RNYzzUxc-unsplash.jpg");
+    background-size: cover;
+}
+
+#sinup form {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+#sinup  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 800;
+    color: #ffffff;
+}
+
+#sinup input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#sinup button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#sinup h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+#sinup h4 {
+    color: azure;
+    font-weight: 800;
+    font-size: 800;
+}
+#login  {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../img/tamanna-rumee-eD1RNYzzUxc-unsplash.jpg");
+    background-size: cover;
+}
+
+#login  form {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+#login  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 800;
+    color: #fcfcfc;
+}
+
+#login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#login  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#login  h2 {
+    text-align: center;
+    color: #fcfcfc;
+}
+
+#login  h4 {
+    color: azure;
+    font-weight: 800;
+    font-size: 800;
+}
+
+#login  .password-input-container {
+    position: relative;
+}
+
+#login  #password {
+    padding-right: 30px;
+}
+
+#login  #eye {
+    position: absolute;
+    right: 10px;
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
